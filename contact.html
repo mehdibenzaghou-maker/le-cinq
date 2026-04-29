@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Le Cinq</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══ HEADER ══ -->
+<header>
+  <nav>
+    <a class="logo" href="index.html">
+      <div class="logo-mark">
+        <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 36 Q20 20 40 8" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"/>
+          <path d="M4 44 Q22 28 44 16" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="0.6"/>
+          <circle cx="22" cy="22" r="2.5" fill="#A08840"/>
+          <circle cx="14" cy="17" r="1.5" fill="#A08840" opacity=".7"/>
+          <circle cx="30" cy="17" r="1.5" fill="#A08840" opacity=".7"/>
+          <circle cx="14" cy="27" r="1.5" fill="#A08840" opacity=".7"/>
+          <circle cx="30" cy="27" r="1.5" fill="#A08840" opacity=".7"/>
+          <circle cx="22" cy="22" r="19" fill="none" stroke="#A08840" stroke-width="0.6" opacity=".3"/>
+        </svg>
+      </div>
+      <div class="logo-text-wrap">
+        <span class="logo-le">Le</span>
+        <span class="logo-cinq">CINQ</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil / Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </nav>
+</header>
+
+<main>
+  <div class="sec-title" style="padding-top:calc(var(--nav-h) + 3rem);">
+    <span class="sec-label">Nous trouver / Find us</span>
+    <h1 class="sec-heading">Contact</h1>
+    <span class="sec-line"></span>
+  </div>
+
+  <div class="contact-wrap">
+
+    <!-- Row 1: Info + Form -->
+    <div class="contact-grid">
+
+      <!-- Info card -->
+      <div class="c-card reveal">
+        <h2>✦ Informations</h2>
+
+        <div class="info-row">
+          <i class="fas fa-map-marker-alt"></i>
+          <!-- UPDATE ADDRESS HERE -->
+          Alger, Algérie
+        </div>
+        <div class="info-row">
+          <i class="fas fa-phone"></i>
+          <!-- UPDATE PHONE HERE -->
+          +213 XXX XX XX XX
+        </div>
+        <div class="info-row">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:contact@lecinq.dz">contact@lecinq.dz</a>
+        </div>
+        <div class="info-row">
+          <i class="fas fa-clock"></i>
+          <!-- UPDATE HOURS HERE -->
+          Tous les jours · Every day
+        </div>
+        <div class="info-row">
+          <i class="fas fa-motorcycle"></i>
+          Livraison directe
+        </div>
+
+        <h2 style="margin-top:2rem;">✦ Réseaux / Socials</h2>
+        <div class="social-links">
+          <a href="#" class="social-link" title="Instagram">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+          <a href="#" class="social-link" title="Facebook">
+            <i class="fab fa-facebook-f"></i> Facebook
+          </a>
+          <a href="#" class="social-link" title="TikTok">
+            <i class="fab fa-tiktok"></i> TikTok
+          </a>
+          <a href="mailto:contact@lecinq.dz" class="social-link" title="Email">
+            <i class="fas fa-envelope"></i> Email
+          </a>
+        </div>
+      </div>
+
+      <!-- Form card -->
+      <div class="c-card reveal">
+        <h2>✦ Envoyez un message</h2>
+        <form class="contact-form-el">
+          <input type="text"  placeholder="Nom complet / Full name" required>
+          <input type="email" placeholder="Adresse email / Email address" required>
+          <input type="tel"   placeholder="Téléphone / Phone">
+          <textarea rows="5"  placeholder="Votre message / Your message..."></textarea>
+          <button type="submit" class="btn-gold"
+            style="width:100%;text-align:center;display:block;border-radius:0;">
+            Envoyer / Send
+          </button>
+        </form>
+      </div>
+
+    </div><!-- /contact-grid -->
+
+    <!-- Row 2: Map -->
+    <div style="border:1px solid var(--line);background:var(--black);">
+      <div class="c-card" style="border:none;padding-bottom:1rem;">
+        <h2>✦ Notre Localisation / Our Location</h2>
+        <div class="info-row" style="margin-bottom:.5rem;">
+          <i class="fas fa-map-marker-alt"></i>
+          <!-- UPDATE ADDRESS HERE -->
+          Alger, Algérie
+        </div>
+      </div>
+      <div class="map-wrap">
+        <!-- UPDATE MAP EMBED SRC WHEN ADDRESS IS CONFIRMED -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d101080.54136824684!2d3.042048!3d36.737128!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fad8c4fe7b78b%3A0x2b59e04b1a576bb5!2sAlger%2C+Algeria!5e0!3m2!1sfr!2sdz!4v1700000000000"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localisation Le Cinq">
+        </iframe>
+      </div>
+    </div>
+
+  </div><!-- /contact-wrap -->
+</main>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>Le Cinq</h4>
+      <p>Restaurant · Fast Food · Alger</p>
+    </div>
+    <div class="footer-col">
+      <h4>Horaires / Hours</h4>
+      <p>Tous les jours / Every day</p>
+    </div>
+    <div class="footer-col">
+      <h4>Suivez-nous / Follow us</h4>
+      <p>
+        <a href="#" style="margin-right:.8rem;"><i class="fab fa-instagram"></i></a>
+        <a href="#" style="margin-right:.8rem;"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" style="margin-right:.8rem;"><i class="fab fa-tiktok"></i></a>
+      </p>
+      <p style="margin-top:.5rem;">
+        <a href="mailto:contact@lecinq.dz" style="font-size:.7rem;">
+          <i class="fas fa-envelope"></i> contact@lecinq.dz
+        </a>
+      </p>
+    </div>
+  </div>
+  <div class="footer-bottom">✦ &copy; 2026 Le Cinq · Alger, Algérie ✦</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
